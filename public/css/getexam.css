@@ -1,0 +1,260 @@
+.row{
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+.exam{
+	margin-top: 100px;
+	text-align: center;
+	padding: 50px 0px;
+	background: white;
+	border: 1px solid #e6edf3;
+	margin-bottom: 200px;
+	background-color: #fefefe;
+	margin: 60px 250px;
+}
+
+.exam label{
+	font-size: 20px;
+	padding: 0px 10px;
+}
+.form-control{
+	width: 250px;
+	display: inline;
+}
+#label{
+	font-weight: normal;
+	margin: 0; 
+  	padding: 0; 
+  	font-size: 100%; 
+  	width: 15em;
+  	font-size: 18px;  
+  	text-align: right; 
+  	color: black;
+}
+
+.form-control{
+	margin-left: 10px; 
+}
+
+#radio{
+	display: inline-block;
+	margin-left: 20px;
+}
+input#full {
+    margin-top: 8px;
+}
+input#section {
+    margin-top: 8px;
+}
+input#fulls {
+    margin-top: 8px;
+}
+input#subjects {
+    margin-top: 8px;
+}
+#submit{
+	margin-left: 100px;
+}
+
+#error{
+	margin-left: 183px;
+    margin-top: 110px;
+    color: #a94442;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.e{
+	border: 1px solid #a94442;
+  	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+ 	outline: 0 none;
+}
+
+
+/*---------------------------- EXAMS PAGE  ---------------------------------------------*/
+
+
+.startexam{
+	margin-top: 100px;
+	
+	padding: 50px 14%;
+	background: white;
+	border: 1px solid #e6edf3;
+	margin-bottom: 200px;
+	background-color: #fefefe;
+	margin: 60px 200px;
+}
+.startexam .btn{
+	margin-left: 30%;
+}
+.startexam div label {
+	display: inline-block;
+	width: 210px; 
+	padding: 10px 0px;
+	font-weight: normal;
+	text-align: right;
+	font-size:20px;
+}​
+span.exams.subject {
+	
+	font-size:20px;
+}​
+
+
+.exam h3 {
+
+	 padding: 5px 0px;
+
+}
+.exam h3 span{
+		
+	margin-left: 41px;
+	text-align: left;
+}
+h3.exams.subject{
+
+}
+h3.exams.type {
+	padding-left: 8%;
+}
+h3.exams.question {
+	padding-left: 3%;
+}
+h3.exams.time {
+	padding-left: 8%;
+}
+
+
+	
+/*---------------------------- /EXAMS PAGE  ---------------------------------------------*/
+
+
+
+/*  Media between 00 and 580  */
+@media (max-width:580px){
+	
+	.exam{
+		margin-top: 100px;
+		padding: 20px 0px;
+		margin-bottom: 200px;
+		background-color: #fefefe;
+		border: 0px solid white;
+		margin: 50px 0px;
+	}
+
+	.exam label{
+		font-size: 15px;
+		padding: 0px 10px;
+	}
+	.form-control{
+		width: 250px;
+		display: inline;
+	}
+	#label{
+		font-weight: normal;
+		margin: 0; 
+		padding: 0px 10px;
+		margin-bottom: 10px;  
+		font-size: 17px;  
+		text-align: left; 
+		color: black;
+	}
+
+	#submit{
+		margin-left: 0px;
+	}
+
+	#error{
+		text-align: left;
+		margin-left: 0px;
+		margin-top: 110px;
+		color: #a94442;
+		font-size: 13px;
+		font-weight: bold;
+	}
+
+	.startexam{
+		margin-top: 100px;
+		padding: 50px 0%;
+		background: white;
+		border: 1px solid #e6edf3;
+		margin-bottom: 200px;
+		background-color: #fefefe;
+		margin: 60px 0px;
+	}
+	.startexam .btn{
+		margin-left: 30%;
+	}
+
+
+}
+
+/*  Media between 581 and 880  */
+@media(min-width:581px) and (max-width:880px) {
+
+	.exam{
+		margin-top: 100px;
+		padding: 20px 0px;
+		margin-bottom: 200px;
+		background-color: #fefefe;
+		border: 0px solid white;
+		margin: 50px 0px;
+	}
+
+	.exam label{
+		font-size: 15px;
+		padding: 0px 10px;
+	}
+	.form-control{
+		width: 250px;
+		display: inline;
+	}
+	#label{
+		font-weight: normal;
+		margin: 0; 
+		padding: 0; 
+		font-size: 100%; 
+		width: 16em;
+		font-size: 18px;  
+		text-align: right; 
+		color: black;
+	}
+	#radio{
+		display: inline-block;
+		margin-left: 25px;
+	}
+
+	#submit{
+		margin-left: 140px;
+	}
+
+	.startexam{
+		margin-top: 100px;
+		padding: 50px 14%;
+		background: white;
+		border: 1px solid #e6edf3;
+		margin-bottom: 200px;
+		background-color: #fefefe;
+		margin: 60px 25px;
+	}
+	.startexam .btn{
+		margin-left: 25%;
+	}
+
+
+}
+
+/*  Media between 581 and 1299  */
+@media(min-width:881px) and (max-width:1299px) {
+
+
+
+}
+
+.aleft{
+	float: left;
+}
+.aright{
+	margin-left: 30px;
+	float: left;
+}

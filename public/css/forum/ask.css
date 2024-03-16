@@ -1,0 +1,102 @@
+.question{
+	margin-top: 100px;
+}
+
+#ask h6{
+	font-size: 15px;
+}
+
+#ask input{
+	height: 40px;
+	font-size: 16px;
+	width: 700px;
+}
+#ask select{
+	height: 40px;
+	font-size: 15px;
+	width: 700px;
+}
+div#mceu_21-body {
+    width: 700px;
+}
+
+.bootstrap-tagsinput {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    display: inline-block;
+    padding: 4px 6px;
+    color: #555;
+    vertical-align: middle;
+    border-radius: 0px;
+    max-width: 100%;
+    line-height: 12px;
+    cursor: none;
+   
+}
+.bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    font-size: 12px;
+    color: white;
+    background: #337faa;
+}
+
+p.tag.label.label-info{
+	font-size: 15px;
+	line-height: 2em;
+}
+
+p.tag.label.label-info span{
+
+}
+
+/*  Media between 00 and 580  */
+@media (max-width:580px){
+ 	 
+	#ask input{
+		height: 40px;
+		font-size: 20px;
+		width: 100%;
+	}
+	#ask select{
+		height: 40px;
+		font-size: 15px;
+		width: 100%;
+	} 
+ 
+}
+
+/*  Media between 581 and 924  */
+@media(min-width:581px) and (max-width:760px) {
+
+	#ask input{
+		height: 40px;
+		font-size: 20px;
+		width: 100%;
+	}
+	#ask select{
+		height: 40px;
+		font-size: 15px;
+		width: 100%;
+	} 	
+
+}
+
+/*  Media between 581 and 924  */
+@media(min-width:992px) and (max-width:1200px) {
+
+	#ask input{
+		height: 40px;
+		font-size: 20px;
+		width: 600px;
+	}
+	#ask select{
+		height: 40px;
+		font-size: 15px;
+		width: 600px;	
+	}
+	div#mceu_21-body {
+		width: 600px;
+	} 	
+
+}

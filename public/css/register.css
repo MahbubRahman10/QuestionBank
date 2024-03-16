@@ -1,0 +1,93 @@
+.col-md-12{
+    margin-top: 70px;
+    margin-bottom:  50px;
+}
+.register {
+  padding: 20px 20px;
+  margin: 50px auto;
+  width: 440px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.register input {
+  width: 95%;
+  height: 50px;
+  display: block;
+  margin: 0 auto 15px;
+  padding: 0 15px;
+  border: 1px solid;
+  font-size: 18px;
+}
+.register button {
+  width: 95%;
+  height: 50px;
+  margin-left: 10px;
+  background-color: #008CBA;
+  color: white;
+}
+.register button:hover {
+  color: white;
+  border: none;
+}
+.register input:focus {
+  outline: none;
+}
+.register input:hover {
+}
+.register input:invalid {
+  box-shadow: none;
+}
+.register pass:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+.register hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 3px solid orange;
+}
+#signups{
+  width: 95%;
+  height: 50px;
+  margin-left: 10px;
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 170px;
+  border-radius: 0;
+  font-weight: 700px;
+  font-size: 20px;
+}   
+.signups:focus{
+  color: red;
+}
+.signups:hover,{
+  color: red;
+}
+.signups:visited{
+  color: red;
+}
+.signups:click{
+  color: red;
+}
+.signups:active{
+  color: red;
+}
+/*Error*/ 
+.form-data.has-error{
+  color: rgb(169, 68, 66);
+}
+.help-block strong {
+    margin-left: 11px;
+}
+
+
+
+/*  Media between 581 and 1299  */
+@media (max-width:580px){
+
+  .col-md-12{
+    margin-top: 100px;
+  }
+}

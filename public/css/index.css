@@ -1,0 +1,266 @@
+
+/*  tab class style  */	
+.tab{
+	background-image: url("/img/q.jpg");
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	
+}
+
+/*  search class style in tab class  */
+.search{
+	padding: 185px 300px;
+	overflow: hidden; 
+	padding-right: 22em;
+}
+
+/*  search input style in search class  */
+#searchinput{
+	padding: 3px 0px 4px 20px;
+/*	font-family: 'Roboto', sans-serif;*/
+	width: 600px;
+	height: 52px;
+	background: #fff;
+    border-radius: 3px;
+    border: none;
+    color: #4c4c4c;
+    font-size: 16px;
+    float: left;
+}
+.submitsearch{
+	float: right;
+/*	font-family: 'Roboto', sans-serif;*/
+	padding: 15px 25px 12px 25px;
+	background-color: #3183d7;
+	border: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	border-radius: 3px;
+	margin-left: 12px;
+}
+
+
+/*  search input placeholder style  */
+input[type="text"]::-webkit-input-placeholder {
+    font-size: 18px;
+}
+
+/* Question Style */
+#question{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#questionimage{
+	background-color: white;
+	padding: 10px 10px; 
+}
+#questionimage img{
+	position: relative; 
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+	height: 300px;
+	width: 350px;
+	padding: 10px 10px;
+}
+
+.qutitle{
+    position: absolute;
+    bottom: 10px;
+    width: 350px;
+    background-color:black;
+    padding: 0px 0px;
+    opacity:0.6; /* transparency */
+	filter:alpha(opacity=60); /* IE transparency */
+}
+.qutitle h3{
+	color: white;
+/*	font-family: "Open Sans",Arial,sans-serif;*/
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+/* ----- Exam -----  */
+#exam{
+	margin-top: 30px;
+}
+.etitle{
+	text-align: center;
+	line-height: 2em;
+	font-size:40px;
+    letter-spacing: 3px;
+	font-family: Apple Chancery, cursive;	
+	text-transform: uppercase;
+	/* border-bottom: 3px solid #C63D0F; */
+	margin-bottom: 50px;
+}
+.etype{
+	font-weight: bold;
+	color: #333333;
+	font-size : 20px;
+	border-bottom: 3px solid #eee;
+	line-height: 2em;
+	margin-bottom: 20px;
+}
+#eicon{
+	padding: 00px 0px;
+}
+#exam .arrow{
+	color: black; 
+	font-weight: bold;
+	font-size: 15px;
+}
+.esection{
+	padding: 5px 0px;
+}
+.esection a{
+	padding: 0px 5px;
+	text-decoration: none;
+	color: #333333;
+}
+.esection a:hover{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Media between 00 and 580  */
+@media (max-width:580px){
+	.tab{
+		height: 200px;
+	}
+
+	.search{
+		padding-right: 65em;
+		padding: 105px 20px;
+	}
+
+	#searchinput{
+		width: 65%;
+		height: 50px;
+	}
+
+	.submitsearch{
+		float: right;
+/*		font-family: 'Roboto', sans-serif;*/
+		padding: 15px 15px 19px 15px;
+		background-color: #3183d7;
+		border: 0px;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	#questionimage img{
+		width: 280px;
+	}
+	.qutitle{
+		width: 280px;
+	}
+	   
+
+}
+
+/*  Media between 581 and 880  */
+@media(min-width:581px) and (max-width:680px) {
+
+	.search{		
+		padding: 195px 20px;	
+		overflow: hidden; 
+		padding-right: 1em;
+	}
+	#searchinput{
+		width: 70%;
+		height: 50px;
+	}
+
+}
+
+/*  Media between 581 and 1299  */
+@media(min-width:681px) and (max-width:1030px) {
+   
+   /*.tab{
+		height: 300px;
+	}*/
+	.search{
+		padding: 190px 80px;
+	}
+
+	#searchinput{
+		width: 72%;
+		height: 50px;
+	}
+
+	.submitsearch{
+		float: right;
+/*		font-family: 'Roboto', sans-serif;*/
+		padding: 15px 25px 12px 25px;
+		background-color: #3183d7;
+		border: 0px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	#questionimage img{
+		width: 300px;
+	}
+	.qutitle{
+		width: 300px;
+	}
+	   
+}
+
+
+
+
+/*  Media between 581 and 1299  */
+@media(min-width:1031px) and (max-width:1360px) {
+   
+   /*.tab{
+		height: 300px;
+	}*/
+	.search{
+		padding: 190px 150px;
+	}
+
+	#searchinput{
+		width: 80%;
+		height: 50px;
+	}
+
+	.submitsearch{
+		float: right;
+/*		font-family: 'Roboto', sans-serif;*/
+		padding: 15px 25px 12px 25px;
+		background-color: #3183d7;
+		border: 0px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+   
+}
+
+
+

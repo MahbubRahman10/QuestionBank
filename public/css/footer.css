@@ -1,0 +1,114 @@
+
+/* Footer CSS*/
+.footer{
+	margin-top: 50px;
+	background: #333333 url(footer_pattern.png) repeat;
+	color: #969D8B;
+}
+
+#footer .row{
+	border-bottom: 1px solid white;
+}
+
+
+.footer h3{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.footer #about p{
+	font-size: 13px;
+	font-style: italic;
+}
+
+.footer-content{
+	margin: 30px 0px;
+}
+
+.footer #contact i{
+	padding-right: 4px;
+}
+.footer #contact p{
+	font-size: 15px;
+}
+.footer #contact a{
+	color: #ccc;
+	text-decoration: underline;
+}
+
+.flinks{
+	padding:0px 12%;
+}
+#links ul li{
+	list-style: none;
+	margin-left: 0px;
+	padding: 5px 0px;
+}
+#links ul li i{
+	padding-right: 5px;
+}
+#links ul li i{
+	padding-right: 5px;
+}
+#links ul li a{
+
+	color: #ccc;
+	font-size: 15px;
+
+}
+
+.social{
+	padding : 20px 0px;
+}
+.social li{
+	display: inline-block;
+}
+.social li .facebook{
+	background: #ccc;
+	padding: 16px 8px 8px 12px;
+	margin-right:5px;
+}
+.social li .twitter{
+	background: #ccc;
+	padding: 20px 5px 9px 10px;
+	font-size: 10px;
+}
+.social li .googleplus{
+	background: #ccc;
+	padding: 20px 0px 9px 13px;
+	font-size: 10px;
+	margin-right:5px;
+}
+.social li .instagram{
+	background: #ccc;
+	padding: 20px 3px 9px 10px;
+	font-size: 10px;
+}
+.social li a i{
+	font-size: 25px; 
+	color: #333333;
+}
+.social li .facebook:hover {
+	background:  #4267b2;
+	color: white;
+}
+.social li .twitter:hover{
+	background:  #1da1f2;
+	color: white;
+}
+.social li .googleplus:hover{
+	background:  #D34836;
+	color: white;
+}
+.social li .instagram:hover{
+	background:  #9b6954;
+	color: white;
+}
+i.fa.fa-google-plus{
+	font-size: 17px;
+}
+
+.last-footer{
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+}

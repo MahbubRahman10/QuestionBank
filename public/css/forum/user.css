@@ -1,0 +1,49 @@
+.question{
+	margin-top: 100px;
+}
+
+#user-info img{
+	margin-top: 12px;
+	height: 200px;
+	width: 250px;
+	margin-bottom: 10px;
+}
+.user-name{
+	font-size: 25px;
+    font-weight: 600;
+   	font-family: "-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #24292e;
+}
+.user-time{
+	font-size: 15px;
+	color: #666;
+	margin-left: -3px;
+}
+.user-bio{
+	margin-top: 20px;
+	font-size: 16px;
+	color: #6a737d;
+	line-height: 1.5em;
+	font-family: "-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+#questions h4{
+	border-bottom: 1px solid #C4C4C4;
+	line-height: 1.5em;
+}
+.viewquestion{
+	display: block;
+    padding: 10px 0px;
+}
+.viewquestion #question{
+	float: left;
+}
+.viewquestion #question a{
+	float: left;
+	color: #4c4c4c;
+	font-size: 16px;
+	font-family: 'Kalpurush', sans-serif;
+}
+.viewquestion .time{
+	float: right;
+}

@@ -1,0 +1,108 @@
+
+/*  tab class style  */	
+#term{
+	margin-top: 60px;
+}
+
+#term h3{
+	text-align: center;
+	color: #3B444E;
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+#term p{
+	color: #222;
+	font-style: normal;
+	line-height: 1.7em;
+	font-size: 1.1em;
+	text-align: center;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	margin-bottom: 50px;
+}
+.term{
+	margin-top:0px;
+	color: #222;
+	font-style: normal;
+	line-height: 1.7em;
+	font-size: 1.1em;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.term h1{
+	font-family: 'Gotham Rounded A', 'Gotham Rounded B', Helvetica, Arial;
+	color: #333;
+}
+
+
+
+
+
+#policy{
+	margin-top: 60px;
+}
+
+#policy h3{
+	text-align: center;
+	color: #3B444E;
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+#policy p{
+	color: #222;
+	font-style: normal;
+	line-height: 1.7em;
+	font-size: 1.1em;
+	text-align: center;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	margin-bottom: 50px;
+}
+.policy{
+	margin-top:0px;
+	color: #222;
+	font-style: normal;
+	line-height: 1.7em;
+	font-size: 1.1em;
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.policy h1{
+	font-family: 'Gotham Rounded A', 'Gotham Rounded B', Helvetica, Arial;
+	color: #333;
+}
+
+
+
+
+/*  Media between 00 and 580  */
+@media (max-width:580px){
+	
+	.term{
+		padding: 0px 10px;
+	}
+
+}
+
+/*  Media between 581 and 880  */
+@media(min-width:581px) and (max-width:880px) {
+
+	.term{
+		padding: 0px 10px;
+	}
+
+}
+
+/*  Media between 581 and 1299  */
+@media(min-width:881px) and (max-width:1299px) {
+   
+   .term{
+		padding: 0px 10px;
+	}
+   
+}
+
+
+

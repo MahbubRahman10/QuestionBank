@@ -1,0 +1,95 @@
+.contact{
+	margin-top: 100px;
+}
+.cc{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#contact input{
+	width: 390px;
+	height: 35px;
+	border-radius: 0px;
+}
+
+#contact textarea{
+	width: 390px;
+	height: 205px;
+	border-radius: 0px;
+}
+
+div#contact-us {
+    background: #fefefe;
+    margin: 20px 300px 0px 380px;
+    padding: 40px 20px;
+    border: 1px solid #D3D2D2;
+}
+
+/*  Media between 00 and 580  */
+@media (max-width:580px){
+ 	 
+	#contact input{
+		width: 100%;
+		height: 35px;
+	}
+
+	#contact textarea{
+		width: 100%;
+		height: 205px;
+	}
+
+	div#contact-us {
+		background: round;
+		margin: 20px 10px 0px 10px;
+		padding: 40px 20px;
+		border: 1px solid #eee;
+	}	
+ 
+}
+
+/*  Media between 581 and 760  */
+@media(min-width:581px) and (max-width:760px) {
+
+	#contact input{
+		width: 100%;
+		height: 35px;
+	}
+
+	#contact textarea{
+		width: 100%;
+		height: 205px;
+	}
+
+	div#contact-us {
+		background: round;
+		margin: 20px 100px 0px 100px;
+		padding: 40px 20px;
+		border: 1px solid #eee;
+	}	
+
+}
+
+/*  Media between 761 and 995  */
+@media(min-width:761px) and (max-width:994px) {
+
+	div#contact-us {
+		background: round;
+		margin: 20px 100px 0px 140px;
+		padding: 40px 20px;
+		border: 1px solid #eee;
+	}	
+}
+
+/*  Media between 995 and 1198  */
+@media(min-width:995px) and (max-width:1198px) {
+
+	div#contact-us {
+		background: round;
+		margin: 20px 200px 0px 270px;
+		padding: 40px 20px;
+		border: 1px solid #eee;
+	}	
+
+}
+
+

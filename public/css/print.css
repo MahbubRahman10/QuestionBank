@@ -1,0 +1,46 @@
+
+/* Footer CSS*/
+body{
+	margin-top: 50px;
+	background-color: red;
+	color: #969D8B;
+}
+
+@media print {
+   .pdf{
+   	display: none;
+   }
+   #qicon{
+   	display: none;
+   }
+   #qicon{
+   	display: none;
+   }
+   #icon{
+   	display: none;
+   }
+   .loadmore{
+   	display: none;
+   }
+   .getmore{
+      display: none;
+   }
+   #q{
+   	font-weight: normal;
+   }
+   #question span{
+   	font-weight: normal;
+   }
+   #question strong{
+   	font-weight: normal;
+   }
+   header{
+   	display: none;
+   }
+   #sections{
+   	display: none;
+   }
+   .saved{
+   	display: none;
+   }
+}

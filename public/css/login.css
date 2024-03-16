@@ -1,0 +1,231 @@
+.login {
+    padding: 20px 20px;
+    margin: 50px auto;
+    width: 340px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.col-md-12{
+    margin-top: 70px;
+    margin-bottom:  50px;
+}
+
+.login input {
+    width: 95%;
+    height: 50px;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+}
+.login input:focus {
+    outline: none;
+    border-bottom-color: #3CC !important;
+}
+.login input:hover {
+    border-bottom-color: #dcdcdc;
+}
+.login input:invalid {
+    box-shadow: none;
+}
+
+.login pass:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+
+
+.checkbox input{
+
+  height: 17px;
+  width: 16px;
+}
+
+.checkbox{
+ margin: 0 auto 15px;
+ padding: 0 29px;
+}
+
+.forget a{
+
+  padding: 0px 80px;
+
+}
+
+.login hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid orange;
+}
+
+
+#signin{
+
+  padding: 10px 120px;
+  border-radius: 0;
+  font-weight: 700px;
+  font-size: 20px;
+
+
+}    
+
+
+
+/* Social Login */
+.socials span{
+  display: inline-block;
+}
+.soc{
+  text-align: center;
+  display:flex;
+}
+.soc:after,
+.soc:before{
+    color:#eee;
+  content:'';
+  flex:1;
+  border-bottom:groove 2px;
+  margin:auto 0.25em;
+  box-shadow: 0 -1px ;/* ou 0 1px si border-style:ridge */
+}
+/* Facebook */
+.fb-icon-bg {
+  background: #354f88;
+  height: 37px;
+  margin: 0 0 -37px 0;
+  width: 41px; 
+}
+.fb-icon-bg:after {
+
+  display: block;
+  padding: 9px 10px 5px 15px;
+}
+.fb-bg {
+  background: #3b5998;
+  display: block;
+  height: 37px;
+  /*margin: 0 0 30px 41px;*/
+  margin: 0 0 0px 41px;
+  width: 100px; 
+}
+.fb-bg:after {
+  color: #fff;
+  font-weight: 700;
+  content: "facebook";
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  left: 8%;
+  position: relative;
+  text-transform: uppercase;
+  top: 22%;
+  width: 30px; 
+}
+.fb-bg:hover{
+  cursor: pointer;
+}
+
+.fb-bg:active{
+  background: #354f88;
+}
+
+/* Twitter */
+.twi-icon-bg:after {
+
+  display: block;
+  padding: 11px 10px 6px 11px;
+}
+.twi-icon-bg {
+  background: #40a2d1;
+  height: 37px;
+  margin: 0 0 -37px 0;
+  width: 41px; 
+}
+.twi-bg {
+  background: #45b0e3;
+  height: 37px;
+  /*margin: 0 0 30px 41px;*/
+  margin: 0 0 10px 41px;
+  width: 100px; 
+}
+.twi-bg:after {
+  color: #fff;
+   font-weight: 700;
+  content: "Twitter";
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  left: 11%;
+  position: relative;
+  text-transform: uppercase;
+  top: 22%;
+  width: 41px; 
+}
+.twi-bg:hover {
+  cursor: pointer;
+}
+.twi-bg:active {
+  background: #40a2d1;
+}
+.socials a:hover{
+  text-decoration: none;
+}
+
+/* Google  */
+.google-icon-bg:after {
+
+  display: block;
+  padding: 11px 10px 6px 11px;
+}
+.google-icon-bg {
+  background: #C9392D;
+  height: 37px;
+  margin: 0 0 -37px 0;
+  width: 41px; 
+}
+.google-bg {
+  background: #EA4335;
+  height: 37px;
+  margin: 0 0 30px 41px;
+  width: 100px; 
+}
+.google-bg:after {
+  color: #fff;
+   font-weight: 700;
+  content: "Google";
+  font-family: 'Oswald', sans-serif;
+  height: 37px;
+  left: 11%;
+  position: relative;
+  text-transform: uppercase;
+  top: 22%;
+  width: 41px; 
+}
+.google-bg:hover {
+  cursor: pointer;
+}
+.google-bg:active {
+  background: #EA4335;
+}
+.socials a:hover{
+  text-decoration: none;
+}
+
+
+
+
+
+
+/*  Media between 581 and 1299  */
+@media (max-width:580px){
+
+  .col-md-12{
+    margin-top: 100px;
+  }
+}
+
+
+

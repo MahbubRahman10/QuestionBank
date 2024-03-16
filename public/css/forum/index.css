@@ -1,0 +1,85 @@
+.question{
+	margin-top: 100px;
+}
+/*
+forum home-page table css
+*/
+.tborder > tbody > tr {
+    border-bottom: 1px solid #ebebeb;
+	  
+}
+.tborder> tbody >tr>td {
+	padding: 15px 00px;	  
+}
+.col-md-8{
+
+}
+#sst {
+	margin-top: -15px;
+}
+.tborder td {
+    color: #999;
+    font-weight: normal;
+    font-size: 1em;
+}
+.tborder thead tr{	
+	border-bottom: 4px solid #ebebeb;;
+}
+td.thead, th.thead, div.thead {
+    padding: 4px;
+}
+.thead {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.tborder> tbody >tr>td  a {
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+    text-decoration: none;
+}
+.tborder> tbody >tr>td  p {
+    font-size: 15px;
+}
+table td {
+    vertical-align: top;
+}
+.tcat {
+    background: #4792b0;
+    color: #FFFFFF;
+    font-weight: bold;	
+}
+.tcat a {
+    background: #4792b0;
+    color: #FFFFFF;
+	font-size: 18px;
+    font-weight: bold;
+	margin-left: 3px;
+	
+}
+#coll{	
+	background-color: white;
+}
+
+/* forum post css */
+h6 {
+    font-size: 215px;
+    color: #333;
+}
+.page_title{
+	margin-left: 100px;
+	margin-bottom: 40px;	
+}
+form{
+	margin-left: 100px;	
+}
+form input {
+	width: 500px;
+	height: 50px;	
+}
+form select{
+	width: 500px;
+	height: 40px;	
+}
+form td{
+	color:black;	
+}

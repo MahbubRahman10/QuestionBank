@@ -1,0 +1,283 @@
+.question{
+	margin-top: 100px;
+}
+
+/* form-comment css */
+#comments{
+	list-style: none;
+	border: 1px solid #E9E5E5;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+
+.comment{
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.comment input{
+	width: 300px;
+}
+.comment textarea{	
+	width: 390px;
+}
+.linkbtn {
+	font-weight: 700;
+	border-radius: 10px;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+.linkbtn {
+	background: #B70202;
+	border: 0;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 0 2px rgba(0,0,0,0.4);
+	display: inline-block;
+	cursor: pointer;
+}
+.linkbtn:hover{
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #B80000;
+}
+.breadcrumb {
+	font-size: .76471em;
+	line-height: 1.07692em;
+	margin-left: -5px;
+}
+.breadcrumb li a{
+	font-family: "Open Sans", Calibri, sans-serif;
+	font-weight: normal;
+	color: rgb(51, 51, 51);
+	font-size: 17px;
+}
+.breadcrumb li a:hover{
+	text-decoration: none;
+	color: black;
+}
+.linkbtn:hover {
+	background: #FF8B00;
+	color: #fff;
+	text-shadow: none;
+}	
+#sst h3{
+	font-family: Panton,sans-serif;
+	font-size: 30px;
+	padding-bottom: 7px;
+	font-family: 'Bangla', sans-serif;
+}
+#sstt{	
+	color: black;
+}
+#sstt a{	
+	color: #357868;
+	font-size: 16px;
+}
+#sstt a:hover{	
+	color: #000000;
+	font-size: 16px;
+}
+.editquestion{
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.editquestion a{
+	color: #484444;
+	padding-right: 3px;
+	text-decoration: underline;
+}
+#ssttt{
+	margin-top: 20px;
+}
+#ssttt p{
+	/*font-family: Proxima Nova,Proxima-Nova,proxima-nova,Helvetica,Arial,sans-serif;*/
+	font-family: 'Bangla', sans-serif;
+	font-size: 22px;
+	line-height: 1.4em;
+	color:black;
+	/*padding-bottom:  20px;*/
+}
+h3 span{
+	float: right;
+	font-size: 23px;
+}
+h3 span b{	
+	font-size: 20px;
+	color: red;	
+}
+.maindescription p{
+	font-size: 22px;
+	line-height: 1.5em;
+	color: #252323;
+	font-family: 'Bangla', sans-serif;
+}
+
+/* Like */
+i.fa.fa-thumbs-o-up {
+	font-size: 20px;
+}
+div#ssttt {
+	padding: 10px 0px;
+}
+.description #sstt {
+	/*margin-bottom: 10px;*/
+	margin-bottom: 8%;
+	    margin-top: -30px;
+}
+.alllikse {
+	margin-top: 2px;
+}
+.likes {
+	margin-top: -10px;
+	margin-left: 18px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333333;
+}
+.alllikse span {
+	color: black;
+	font-weight: 400;
+	display: inline-block;
+	padding: 0px 5px;
+	float: left;
+    padding-right: 12px;
+}
+i.fa.fa-thumbs-o-down {
+	font-size: 20px;
+}
+.dislikes {
+    /* color: red; */
+    padding-top: -100px;
+    margin-top: -13px;
+    margin-left: 18px;
+    /* z-index: 999; */
+    /* overflow: hidden; */
+    font-weight: bold;
+}
+
+
+
+i.fa.fa-check-circle-o {
+	font-size: 24px;
+	color: #357868;
+	margin-top : 0px;
+}
+i.fa.fa-check-circle-o:hover {
+	color: rgb(51, 51, 51);
+}
+i.fa.fa-pencil {
+	color: rgb(51, 51, 51);
+}
+i.fa.fa-trash-o{
+	color: rgb(51, 51, 51);
+}
+i.fa.fa-pencil:hover {
+	color: green;
+}
+i.fa.fa-trash-o:hover{
+	color: green;
+}
+.maindescription h5{
+	font-size: 22px;
+	line-height: 2.0em;
+	color: #555555;
+	font-family: 'Bangla', sans-serif;
+}
+#bestbutton{
+	margin-left: 0px;
+}
+.bestbutton {
+	background: none;
+	padding: 0;
+	border: 0;
+	margin-left:-10px;
+	border-radius: 80%;
+}
+button:focus { outline: none; }
+div#b {
+	display: inline-block;
+	margin-top: 70px;
+}
+div#a {
+	display: inline-block;
+}
+a#ud {
+	padding: 5px;
+	font-size: 20px;
+}
+a#ud:hover{
+	font-size: 20px;
+}
+.btn-success {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+.btns {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+#box {
+	width: 100px;
+	height: 100px;
+}
+#box.black {
+	background: red;
+}
+
+#box.red {
+	background: #ff0000;
+}
+.btn-lg {
+    width: 180px;
+    height: 57px;
+    text-transform: none;
+    line-height: 57px;
+    font-size: 14px;
+    padding: 20px;
+}
+.btn-info {
+	padding : 20px 20px;
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    text-transform: none;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    border-color: rgb(51, 51, 51);
+    background: rgb(51, 51, 51);
+    border-width: 2px;
+    padding: 0px;
+}
+div#pp {
+    text-align: center;
+}
+
+.questiontag .label-info {
+    font-size: 15px; 
+}
+.report{
+	font-size: 10px;
+}
