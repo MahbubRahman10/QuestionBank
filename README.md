@@ -26,7 +26,12 @@ The Online Exam Practice Platform is intended to cater to various public examina
 ## University Information
 This project was completed as part of the Bachelor's final year project course at Metropolitan University Sylhet.
 
-## Contributors
-- Mrs. Nazmin Akter, Senior Lecturer in the Department of Computer Science and Engineering at Metropolitan University Sylhet, serving as Supervisor
-- Mr. Mahbub Rahman - Project Lead & Developer
-- Mr. Mohammad Ashraf Hossan Shovo - Co-Developer
+## Supervisor 
+- **Mrs. Nazmin Akter**
+  - Senior Lecturer, Department of Computer Science and Engineering, Metropolitan University Sylhet
+
+## Project Member
+- **Mr. Mahbub Rahman** - Project Lead & Developer
+- **Mr. Mohammad Ashraf Hossan Shovo** - Co-Developer
+
+
